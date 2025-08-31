@@ -1,2 +1,9 @@
 Website with links for 3d printing an enclucers.
 https://hackmakemod.com/blogs/projects/diy-kit-guide-building-your-own-subscription-clock
+
+
+Depending on your modules you will probably have to change this line:
+#define HARDWARE_TYPE MD_MAX72XX::DR1CR0RR1_HW
+
+and may not need this line:
+myDisplay.setZoneEffect(0, true, PA_FLIP_LR);
